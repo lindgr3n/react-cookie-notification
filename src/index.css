@@ -1,0 +1,83 @@
+.CookieBanner {
+    /* .cc-revoke, .cc-window */
+    position: fixed;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Helvetica,Calibri,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    z-index: 9999;
+    font-weight: 300;
+    font-style: normal;
+
+
+    /*
+    .cc-color-override--1360619034.cc-window
+    */
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 122, 252);
+
+    /* .cc-color-override--1360619034.cc-window */
+    padding: 1.2em;
+    border-radius: 5px;
+
+    /* .cc-window.cc-floating */
+    max-width: 24em;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    /* .cc-bottom */
+    bottom: 1em;
+    /* .cc-right */
+    right: 1em;
+
+    /* .cc-window */
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.CookieContent {
+    display: block;
+    margin-bottom: 1em;
+
+}
+
+.CookieContent a {
+    color: rgb(255, 255, 255);
+    opacity: .8;
+    display: inline-block;
+    padding: .2em;
+    cursor: pointer;
+}
+
+.CookieButton {
+    text-align: center;
+    display: inline;
+    -ms-flex: none;
+    flex: none;
+
+    align-items: center;
+    align-content: space-between;
+}
+.CookieButton a {
+    display: inline-block;
+    min-width: 140px;
+    color: rgb(35, 122, 252);
+    background-color: rgb(255, 255, 255);
+    border-color: transparent;
+    border-radius: 5px;
+    flex: 1;
+
+    padding: .4em .8em;
+    font-size: .9em;
+    font-weight: 700;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    cursor: pointer;
+
+}
